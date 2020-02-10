@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F1F1"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:foreground="@drawable/roundbg"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rajaamat"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Raja Ampat Islands"
+                    android:textSize="25dp"
+                    android:textColor="#F0F0F0"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:shadowRadius="1"
+                    android:shadowDy="1"
+                    android:shadowDx="1"
+                    android:shadowColor="#222222"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="West Papua, Indonesia"
+                    android:textSize="19dp"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_marginTop="235dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#F0F0F0"
+                    android:shadowRadius="1"
+                    android:shadowDy="1"
+                    android:shadowDx="1"
+                    android:shadowColor="#222222"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kepulauan Raja Ampat merupakan rangkaian empat gugusan pulau yang berdekatan dan berlokasi di barat bagian Kepala Burung Pulau Papua. Secara administrasi, gugusan ini berada di bawah Kabupaten Raja Ampat, Provinsi Papua Barat."
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif-light"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="65dp"
+            android:background="@drawable/button"
+            android:text="BOOK TICKET NOW"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif-condensed"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
